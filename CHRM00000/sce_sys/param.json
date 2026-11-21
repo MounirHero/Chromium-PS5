@@ -2,22 +2,24 @@
   "ageLevel": {
     "default": 0
   },
+  "amm": {
+    "multimapVaRangeInGib": 512,
+    "pagetableMemorySizeInMib": 256,
+    "vaRangeInGib": 512
+  },
   "applicationCategoryType": 0,
   "applicationDrmType": "free",
-  "attribute": 1644167168,
+  "attribute": 0,
   "attribute2": 0,
-  "attribute3": 1048576,
-  "conceptId": "19919",
+  "attribute3": 0,
+  "conceptId": "00000",
   "contentBadgeType": 1,
   "contentId": "UP9000-CHRM00000_00-CHROMIUMPS500000",
   "contentVersion": "01.000.000",
   "downloadDataSize": 256,
-  "gameIntent": {
-    "permittedIntents": [
-      {
-        "intentType": "launchActivity"
-      }
-    ]
+  "kernel": {
+    "cpuPageTableSize": 268435456,
+    "gpuPageTableSize": 268435456
   },
   "localizedParameters": {
     "defaultLanguage": "en-US",
@@ -27,12 +29,19 @@
   },
   "masterVersion": "01.00",
   "pubtools": {
-    "creationDate": "2026-08-22 00:00:00",
+    "creationDate": "2026-11-21 00:00:00",
     "loudnessSnd0": "-28.00",
     "toolVersion": "2.00"
   },
   "requiredSystemSoftwareVersion": "0x0000000000000000",
   "sdkVersion": "0x0000000000000000",
   "titleId": "CHRM00000",
-  "versionFileUri": ""
+  "versionFileUri": "",
+  "gameIntent": {
+    "permittedIntents": [
+      {
+        "intentType": "launchActivity"
+      }
+    ]
+  }
 }
