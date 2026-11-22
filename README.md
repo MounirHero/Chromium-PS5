@@ -6,9 +6,18 @@ that loads Linux programs and turns their system calls into calls to the console
 derived from [chromium-nx](https://github.com/shodowlo/chromium-nx) by shodowlo and ported
 to x86-64.
 
-Version **0.7.1 build 25**, for PS5 firmware 4.00 with kstuff and ShadowMount.
+Version **0.7.2 build 26**, for PS5 firmware 4.00 with kstuff and ShadowMount.
 
-![The new tab page and the menu](docs/screenshots/01-menu.png)
+![On a PS5: the new tab page](docs/screenshots/ps5-01-new-tab.png)
+
+| | |
+|---|---|
+| ![YouTube in 4K](docs/screenshots/ps5-02-youtube-4k.png) | ![Several tabs](docs/screenshots/ps5-04-tabs.png) |
+| YouTube with its 2160p player (the video's picture is hidden here) | Several tabs |
+| ![GitHub](docs/screenshots/ps5-03-github.png) | ![WebGL 2](docs/screenshots/08-webgl2.png) |
+| GitHub | WebGL 2 through SwiftShader |
+
+These four are screenshots taken on a PS5 with the menu's "Take a screenshot".
 
 ## What it does
 
@@ -27,6 +36,7 @@ Version **0.7.1 build 25**, for PS5 firmware 4.00 with kstuff and ShadowMount.
   when you leave it.
 - **Ad block** (Settings → Privacy): advertisers and trackers are not contacted, and YouTube
   plays without its ads.
+- **WebGL 1 and 2**, drawn in software by SwiftShader (no GPU of the console's is used yet).
 - **Screenshots** from the menu, saved in `/data/chromium-ps5/screenshots`.
 - Find in page, zoom, light and dark themes, site information, "Not secure" for plain http,
   a menu on the other button (open link in new tab, copy, search for the selection, video
@@ -43,8 +53,8 @@ Version **0.7.1 build 25**, for PS5 firmware 4.00 with kstuff and ShadowMount.
 | ![The other button's menu](docs/screenshots/06-context-menu.png) | ![The new tab page](docs/screenshots/07-new-tab.png) |
 | The menu of a link | The new tab page |
 
-These pictures come from the project's PC test bench, which runs the same code as the
-console.
+The pictures in this table come from the project's PC test bench, which runs the same code
+as the console.
 
 ## Install
 
