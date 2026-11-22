@@ -6,7 +6,7 @@ that loads Linux programs and turns their system calls into calls to the console
 derived from [chromium-nx](https://github.com/shodowlo/chromium-nx) by shodowlo and ported
 to x86-64.
 
-Version **0.7.2 build 26**, for PS5 firmware 4.00 with kstuff and ShadowMount.
+Version **0.7.3 build 27**, for PS5 firmware 4.00 with kstuff and ShadowMount.
 
 ![On a PS5: the new tab page](docs/screenshots/ps5-01-new-tab.png)
 
@@ -36,7 +36,7 @@ These four are screenshots taken on a PS5 with the menu's "Take a screenshot".
   when you leave it.
 - **Ad block** (Settings → Privacy): advertisers and trackers are not contacted, and YouTube
   plays without its ads.
-- **WebGL 1 and 2**, drawn in software by SwiftShader (no GPU of the console's is used yet).
+- **WebGL 1 and 2**, drawn in software by SwiftShader (no GPU of the console's is used yet); 3D games draw at half resolution by default for more frames (Settings).
 - **Screenshots** from the menu, saved in `/data/chromium-ps5/screenshots`.
 - Find in page, zoom, light and dark themes, site information, "Not secure" for plain http,
   a menu on the other button (open link in new tab, copy, search for the selection, video
