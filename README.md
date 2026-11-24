@@ -16,10 +16,10 @@ Current version: **0.9.3 build 41** (title id CHRM00000). Tested on PS5 firmware
 | Extensions from the Chrome Web Store (thats Dark Reader making the page dark) | A theme from the Chrome Web Store, on the new tab page |
 | ![GitHub](docs/screenshots/github.png) | ![playstation.com](docs/screenshots/playstation.png) |
 | GitHub | playstation.com |
-| ![pokebonk.com](docs/screenshots/pokebonk.png) | |
-| pokebonk.com, a 3D WebGL game | |
+| ![pokebonk.com](docs/screenshots/pokebonk.png) | ![YouTube](docs/screenshots/youtube.png) |
+| pokebonk.com, a 3D WebGL game | YouTube on the PS5, a Modded Warfare video with quality up to 2160p60 |
 
-Screenshots are taken on the PC test bench, wich runs the exact same code as the console.
+The youtube screenshot is taken on a real PS5 (menu, "Take a screenshot"). The others are from the PC test bench, wich runs the exact same code as the console.
 
 ## What it can do
 
@@ -42,7 +42,7 @@ Screenshots are taken on the PC test bench, wich runs the exact same code as the
 - Then the usual things: find in page, zoom, light and dark theme (the dark one is passed to the sites too), site info, "Not secure" for plain http, "View page source", clearing cookies and cache from Settings → Privacy, and a context menu (open link in new tab, copy, search the selection, translate, video in fullscreen).
 - A full log: on screen (hold Options), live over the network (`nc <ps5-ip> 9031`) and in `/data/chromium-ps5/logs/`, crash reports included.
 
-Note: 0.9.3 is fresh. The last build that actually ran on a PS5 is 0.9.2 build 40, the Translate button was tested only on the PC test bench so far, and sound still has to be confirmed on a real console. If something is broken tell me.
+Note: 0.9.3 is fresh. It runs on my PS5 (the youtube screenshot is from there), but the Translate button was tested only on the PC test bench so far. If something is broken tell me.
 
 ## Install
 
