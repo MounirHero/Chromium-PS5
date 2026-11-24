@@ -33,7 +33,7 @@ The youtube screenshot is taken on a real PS5 (menu, "Take a screenshot"). The o
 - The system keyboard, for the address bar and for every text box inside pages.
 - The touchpad of the controller is the mouse: slide to move, tap to click, two fingers to scroll, two finger tap for the context menu, press and slide to drag.
 - Real full screen for videos (yes, youtube too), it covers the tab strip too.
-- Downloads are written directly to the console disk while they arrive, so a big file doesnt have to fit in memory. They go to `/data/download` (the same folder Torrent & DL uses) or `/data/homebrew`. A `.ffpkg` always asks you where to put it. "Save page as PDF" saves in the same folder.
+- Downloads are written directly to the console disk while they arrive, so a big file doesnt have to fit in memory. They go to `/data/download` or `/data/homebrew`. A `.ffpkg` always asks you where to put it. "Save page as PDF" saves in the same folder.
 - Incognito: nothing goes in the history, cookies and site data are forgotten when you leave it.
 - Ad block (Settings → Privacy): ads and trackers are not even contacted and YouTube plays without ads.
 - WebGL 1 and 2. For now it's software rendering with SwiftShader, the GPU of the console is not used yet. 3D games run at half resolution by default to get more FPS (you can change it in Settings).
@@ -68,8 +68,8 @@ Coming from 0.8.6 or older? `/data/chromium-ps5/rootfs.img` is not used anymore 
 | Triangle | reload |
 | Circle | back, close a panel, exit full screen (hold 2 seconds: close the app) |
 | L1 / R1 | previous / next tab |
-| L3 / R3 | show the cursor / zoom |
-| Options | menu (hold: the log) |
+| R3 | zoom |
+| Options | menu (hold: shows the log screen) |
 
 ## What's missing
 
