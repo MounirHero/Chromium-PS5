@@ -7,14 +7,18 @@ Linux programs and turns their system calls into calls to the console. gx is der
 
 Version **0.9.3 build 41**, for PS5 firmware 4.00 with kstuff and ShadowMount.
 
-![Translate: a Japanese page read in Italian](docs/screenshots/09-translate.png)
+![Translate: a Japanese page read in Italian](docs/screenshots/translate.png)
 
 | | |
 |---|---|
-| ![Split screen](docs/screenshots/10-split-screen.png) | ![A floating window](docs/screenshots/11-floating-window.png) |
+| ![Split screen](docs/screenshots/split-screen.png) | ![A floating window](docs/screenshots/floating-window.png) |
 | Two tabs side by side | A tab as a floating window |
-| ![Extensions](docs/screenshots/12-extensions.png) | ![WebGL 2](docs/screenshots/08-webgl2.png) |
-| Extensions from the Chrome Web Store (picture from 0.8.0) | WebGL 2 through SwiftShader |
+| ![Extensions](docs/screenshots/extensions.png) | ![A theme](docs/screenshots/theme.png) |
+| Extensions from the Chrome Web Store: Dark Reader has made the page dark | A theme from the Chrome Web Store on the new tab page |
+| ![GitHub](docs/screenshots/github.png) | ![playstation.com](docs/screenshots/playstation.png) |
+| GitHub | playstation.com |
+| ![pokebonk.com](docs/screenshots/pokebonk.png) | |
+| pokebonk.com, a 3D game in WebGL | |
 
 These pictures come from the project's PC test bench, which runs the same code as the
 console.
@@ -69,31 +73,6 @@ console.
 
 The last build run on a PS5 is 0.9.2 build 40. The Translate button is new in 0.9.3 and has
 been tested on the PC test bench so far; the sound has not been confirmed on a console yet.
-
-### On a PS5
-
-| | |
-|---|---|
-| ![The new tab page](docs/screenshots/ps5-01-new-tab.png) | ![YouTube in 4K](docs/screenshots/ps5-02-youtube-4k.png) |
-| The new tab page | YouTube with its 2160p player (the video's picture is hidden here) |
-| ![GitHub](docs/screenshots/ps5-03-github.png) | ![Several tabs](docs/screenshots/ps5-04-tabs.png) |
-| GitHub | Several tabs |
-
-Screenshots taken on a PS5 with the menu's "Take a screenshot", with version 0.7: the tool
-bar has gained the Translate and extensions buttons since.
-
-### More pictures
-
-| | |
-|---|---|
-| ![Downloads](docs/screenshots/02-downloads.png) | ![Where to save an app image](docs/screenshots/03-where-to-save.png) |
-| Downloads: progress, speed, time left, both folders | An app image asks where to go |
-| ![Incognito](docs/screenshots/04-incognito.png) | ![Opening Incognito](docs/screenshots/05-incognito-ask.png) |
-| Incognito | What Incognito does with the open tabs |
-| ![The other button's menu](docs/screenshots/06-context-menu.png) | ![The new tab page](docs/screenshots/07-new-tab.png) |
-| The menu of a link | The new tab page |
-
-From the PC test bench, with version 0.7.
 
 ## Install
 
