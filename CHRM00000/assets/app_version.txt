@@ -1,1 +1,1 @@
-Chromium PS5 v0.9.3 build 41
+Chromium PS5 v1.0 build 70
